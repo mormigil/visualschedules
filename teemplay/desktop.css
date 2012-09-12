@@ -1,0 +1,450 @@
+/*Main Divs*/
+@font-face {
+	font-family: 'BauhausRegular';
+	src: url('fonts/bauhausm_2-webfont.eot');
+	src: local('Bauhaus Regular'), local('Bauhaus'), url('fonts/bauhausm_2-webfont.ttf') format('truetype');
+}
+
+html{
+	font-family: 'BauhausRegular';
+	font-size: 22px;
+	line-height: 1;
+}
+
+body{
+	background-color: #000000;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#page_id_1{
+	background: url('page_1.jpg') no-repeat scroll center top;
+	margin: auto;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+#page_id_2{
+	background: url('page_2.jpg') no-repeat scroll center top;
+	margin: auto;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+#page_id_3{
+	background: url('page_3.jpg') no-repeat scroll center top;
+	margin: auto;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+#page_id_4{
+	background: url('page_4.jpg') no-repeat scroll center top;
+	margin: auto;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+#page_id_5{
+	display: block;
+	background: url('page_5.jpg') no-repeat scroll center top;
+	margin: auto;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+a:visited{
+	color: #220042;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:active{
+	color: #ffffff;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.bot_links:visited{
+	COLOR: #666666;
+}
+
+a.bot_links:link{
+	color:#ffffff;
+}
+
+p{
+text-align: left;
+color: #1a1a1a;
+}
+
+#inner-wrap{
+	width: 100%;
+	height: 920px;
+	padding-bottom: 80px;
+}
+
+#left-area{
+width: 10%;
+float: left;
+height: 100%;
+}
+
+#right-area{
+margin-top: 3.6em;
+float: left;
+width: 80%;
+height: 100%;
+}
+
+/*navigating the website*/
+#navigation{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 170px;
+}
+
+#logo{
+	background: url('logo_ball.png') no-repeat;
+	width: 101px;
+	height: 100px;
+	padding: 0;
+	float: left;
+	margin-right: 1%;
+}
+
+#prezi_link_1{
+	margin-left: 4em;
+	margin-top: -1em;
+	display: block;
+	background: url('prezi_link_1.png') no-repeat;
+	width: 377.9px;
+	height: 53.9px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#prezi_link_2{
+	margin-left: 4em;
+	margin-top: -1em;
+	display: block;
+	background: url('prezi_link_2.png') no-repeat;
+	width: 377.9px;
+	height: 53.9px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#prezi_link_1:hover{background: url('prezi_link_1.png') 0px -53.9px no-repeat;}
+#prezi_link_1:active{background: url('prezi_link_1.png') 0px -107.8px no-repeat;}
+
+#prezi_link_2:hover{background: url('prezi_link_2.png') 0px -53.9px no-repeat;}
+#prezi_link_2:active{background: url('prezi_link_2.png') 0px -107.8px no-repeat;}
+
+
+#logo:hover{ background: url('logo_ball.png') 0px -100px no-repeat;}
+#logo:active{ background: url('logo_ball.png') 0px -200px no-repeat;}
+
+#nav {
+background:url('changed_buttons.png') no-repeat;
+width: 778px;
+height: 54px;
+padding: 0;
+float:left;
+}
+
+#nav li{
+float: left;
+list-style: none;
+width: 194.5px;
+display: inline;
+text-indent: -9999em;
+}
+
+#nav li, #nav a {
+width: 194.5px;
+height: 54px;
+display: block;
+text-color: #ffffff;}
+
+#nav-company a:hover{ background: url('changed_buttons.png') 0px -54px no-repeat; }
+#nav-nu a:hover { background: url('changed_buttons.png') -194.5px -54px no-repeat; }
+#nav-teem a:hover { background: url('changed_buttons.png') -389px -54px no-repeat; }
+#nav-join_us a:hover{ background: url('changed_buttons.png') -583.5px -54px no-repeat; }
+
+#nav-company a:active{ background: url('changed_buttons.png') 0px -108px no-repeat; }
+#nav-nu a:active { background: url('changed_buttons.png') -194.5px -108px no-repeat; }
+#nav-teem a:active { background: url('changed_buttons.png') -389px -108px no-repeat; }
+#nav-join_us a:active{ background: url('changed_buttons.png') -583.5px -108px no-repeat; }
+
+/*main content styling*/
+
+/* home page styling*/
+#galleria{
+width: 910px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -2.3em;
+}
+
+#content-bottom{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slider-image1{
+	width: 400px;
+	margin-left: 210px;
+}
+
+div.overimage{
+	margin-left: 210px;
+	width: 400px;
+}
+
+div.headline{
+	font-size: 44px;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+span.tagline{
+	font-size: 32px;
+	margin-left: 1.5em;
+	color: #40003f;
+	text-align: center;
+}
+
+span.tagline2{
+	font-size: 32px;
+	margin-left: -.5em;
+	color: #40003f;
+	text-align: center;
+}
+
+#recruit1{
+float: left;
+margin-left: 4em;
+width: 288px;
+}
+
+#recruit2{
+float: left;
+margin-left: 5em;
+width: 288px;
+}
+/* prezi pages styling*/
+#prezi{
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -2.3em;
+}
+
+#prezi_info{
+	width: 700px;
+	margin-top: 8em;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+	color: #1a1a1a;
+}
+
+/*teem page styling*/
+#content_4{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+
+#left_content_4{
+	width: 25%;
+	margin-top: 2em;
+	float: left;
+}
+
+#right_content_4{
+	margin-top: -2em;
+	color: #e5e5e5;
+	width: 74%;
+	float: left;
+	font-size: 14px;
+}
+
+.description_4{
+	height: 170px;
+}
+
+.headline_4{
+	font-size: 16px;
+}
+
+#title_4{
+	font-size: 36px;
+	margin-left: 4em;
+}
+
+span.dramaticize{
+	color: #40003f;
+	font-size: 18px;
+}
+
+span.emails_4{
+	margin-left: 60%;
+}
+
+#contact_4{
+	margin-top: 8%;
+	margin-left: 15%;
+	font-size: 16px;
+}
+
+/*join us page styling*/
+
+#content_5{
+	width: 830px;
+	font-size: 18px;
+	margin-top: -1em;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e5e5e5;
+}
+
+#title_5{
+	width: 830px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.emphasize_5{
+	color: #ffffff;
+	font-size: 24px;
+}
+
+#frontImage{
+	padding: 1em;
+}
+
+.emphasize_special_5{
+	color: #ffffff;
+	font-size: 26px;
+}
+
+#links_5{
+	margin-top: 1.5em;
+	list-style: none;
+}
+
+#links_5 li, .role_links_5{
+	line-height: 2;
+	text-decoration: underline;
+	margin-left: 1em;
+	display: inline;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.role_links_5:hover{
+	color: #666666;
+}
+
+.role_links_5:visited{
+	color: 
+}
+
+/*footer styling*/
+
+#footer {
+position: relative;
+bottom: 0;
+height: 160px;
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+color: #e5e5e5;
+}
+
+#media{
+display: inline;
+}
+
+#links li{
+	display: inline;
+	font-size: 36px;
+	padding: 4px;
+}
+
+#footer li{
+float: left;
+list-style: none;
+}
+
+#rights{
+	margin-top: 50px;
+	margin-left: -480px;
+	float: left;
+	display: block;
+	font-size: 14px;
+}
+
+/* Old code
+#sidenav {
+background:url('side_buttons.png') no-repeat;
+width: 230px;
+height: 104.2px;
+padding: 0;
+float:left;
+margin-left: 15%;
+margin-top: -3%;
+}
+
+#sidenav li{
+float: left;
+list-style: none;
+height: 52.1px;
+display: inline;
+text-indent: -9999em;
+}
+
+#sidenav li, #sidenav a {
+width: 230px;
+height: 52.1px;
+display: block;
+text-color: #ffffff;}
+
+#sidenav-walkthrough a:hover{ background: url('side_buttons.png') -230px 0px no-repeat; }
+#sidenav-traditional a:hover { background: url('side_buttons.png') -230px -52.1px no-repeat; }
+
+#sidenav-walkthrough a:active{ background: url('side_buttons.png') -460px 0px no-repeat; }
+#sidenav-traditional a:active { background: url('side_buttons.png') -460px -52.1px no-repeat; }*/
+
+
+/* code to bring the left and right columns together
+#left-area-front{
+width: 30%;
+float: left;
+height 100%;
+}
+#right-area-front{
+margin-top: 16%;
+margin-left: 1%;
+float: left;
+width: 55%;
+}
+#navigation-front{
+	margin-left: 17.5%;
+	margin-top: 25%;
+	height: 500px;
+}
+*/
